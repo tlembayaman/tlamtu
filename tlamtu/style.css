@@ -1,0 +1,168 @@
+scroll-behaivor: smooth;
+body{
+    margin: 0;
+    background-color: black;
+}
+section{
+    min-height: 95vh;
+    background-color: antiquewhite;
+}
+.hero{
+    background-color: #030637;
+    color: #910A67;
+    display: flex;
+}
+.korobka{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 95vh;
+}
+.korobka2{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    width: 50%;
+    height: 95vh;
+
+}
+h1{
+    margin: 0;
+    font-size: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+h2{
+    margin: 0;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h3{
+    margin: 0;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.textcenter{
+    text-align: center;
+}
+
+img{
+    width: 80%;
+}
+.w50{
+    width: 30%;
+}
+input{
+    display: block;
+    margin: 30px 0;
+    width: 100%;
+    height: 30px;
+    font-size: 30px;
+    padding: 15px 30px;
+    border-radius: 30px;
+    border: 0;
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
+#contactme{
+    padding: 50px;
+    color:#030637;
+    background-color: #910A67;
+    position: relative;
+    z-index: 3;
+}
+.m50{
+    margin: 50px;
+}
+
+
+/* Все про меню */
+.logo{
+    font-size: 30px;
+    text-decoration: none;
+    margin: 0 30px;
+    font-weight: 600;    
+}
+.link{
+    font-size: 30px;
+    text-decoration: none;
+    margin: 0 30px;
+    color: #910A67;
+}
+nav{
+    border: 1px solid #910A67 ;
+    margin: 20px 50px;
+    border-radius: 50px;
+    width: calc(100% - 100px);
+    color: #910A67;
+    background-color: #030637;
+    display: flex;
+    align-items: center;
+    height: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    /*position: fixed;*/
+}
+.right{
+    position: absolute;
+    right: 80px;
+}
+.btn{
+    padding: 10px 30px;
+    background-color: red;
+    border-radius: 30px;
+    color: black;
+}
+
+
+/*Все про пятно*/
+.piatno{
+    z-index: 1;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    top: 600px;
+    left: 75%;
+    box-shadow: 0px 0px 300px 300px #3C0753 ;
+    background-color: bisque;
+}
+img{
+    z-index: 2;
+}
+
+/*Все про блог*/
+#myprojects{
+    padding: 150px 0;
+}
+.card{
+    width: 500px;
+    background-color: #910A67;
+    padding: 50px ;
+    border-radius: 30px;
+}
+.w100{
+    width: 100%;
+}
+.cardbtn{
+    text-decoration: none;
+    width: 500px;
+    display: block;
+    margin: 0 150px;
+}
+.dflex{
+    display: flex;
+}
+.w80{
+    width: 80%;
+}
+.chiutnizhe{
+    margin-top: 450px;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+}
